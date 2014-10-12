@@ -1,0 +1,33 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0;
+
+    -webkit-animation: color-loop 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation: color-loop 5s;
+    animation-iteration-count: infinite;     
+}
+
+@-webkit-keyframes color-loop {
+    0%   {color: red;}
+    25%  {color: purple;}
+    50%  {color: yellow;}
+    75%  {color: blue;}
+    100% {color: red;}
+}
+
+@keyframes color-loop{
+    0%   {color: red;}
+    25%  {color: purple;}
+    50%  {color: yellow;}
+    75%  {color: blue;}
+    100% {color: red;}
+}
+
+h2 {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
